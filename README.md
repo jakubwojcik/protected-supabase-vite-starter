@@ -13,8 +13,9 @@ Additionally, there are some usage examples of the SDK:
 - `AuthGuard.tsx` component for checking if the user is authenticated
 - `ProtectedRoute.tsx` component for protecting views for unauthorized users (using the `AuthGuard`)
 
-I've also included one example SQL "migration" script in the `sql` directory. You can run it using the Supabase SQL editor.
-I like to keep my database schema in the repository, so I can easily recreate it if needed. Adding dates as the prefixes helps me keep track of the order of changes.
+I've also included one example of the SQL "migration" script in the `sql` directory. You can run it using the Supabase SQL editor.
+I like to keep my database scripts in the repository, so I can easily recreate it if needed. 
+Adding dates as the prefixes helps me keep track of the order of changes.
 
 If you're new to Supabase, I recommend checking out their [documentation](https://supabase.io/docs).
 
@@ -37,6 +38,10 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
 - **Lint Staged**: Run linters against staged git files
 - **Jotai**: Primitive and flexible state management for React
 - **Lucide**: Beautiful & consistent icons
+
+## What's left to do
+- [ ] Unit tests (probably Jest with React Testing Library)
+- [ ] Integration tests (using Playwright or Cypress)
 
 ## Getting Started
 
@@ -66,9 +71,8 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
    npm run dev
    ```
 
+   Open your browser and visit `http://localhost:5173` to see your app running.
    You should see the main page of the app with Register and Login buttons.
-
-5. Open your browser and visit `http://localhost:5173` to see your app running.
 
 ## Scripts
 
