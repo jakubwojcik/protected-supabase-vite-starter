@@ -13,6 +13,10 @@ node_modules/
 # testing
 coverage
 
+# ide
+.idea/
+.vscode/
+
 # production
 public/build
 build
