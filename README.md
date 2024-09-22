@@ -1,6 +1,4 @@
-# Protected Supabase Vite Starter
-
-### 👨🏻‍💻 @jakubwojcik/protected-supabase-vite-starter
+# 👨🏻‍💻 @jakubwojcik/protected-supabase-vite-starter
 
 This is my starter template for building web applications using Supabase with Vite. It provides a solid foundation with a modern tech stack and essential development tools of my choice.
 
@@ -82,6 +80,11 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
 
 This project uses Conventional Commits for clear and standardized commit messages utilizing husky and commitlint. 
 Please follow the [Conventional Commits specification](https://www.conventionalcommits.org/) when making commits.
+
+## Usage with AI
+
+I've included a `repopack` configuration in the root of the project. You can use it to pack the repository into a single, AI-friendly file (`repopack-output.txt`).
+You can use it to share the codebase with tools like ChatGPT, Claude or aider.
 
 ## License
 

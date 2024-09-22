@@ -4,62 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1432d1-4706-49bb-8c32-b2159a061812" name="Changes" comment="build: initial structure of the template">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repopack.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/2024-09-22_13-00_initial-db-structure.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atoms/searchAtom.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/AuthGuard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/BucketImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/navigation-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/skeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-library/tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/index/Index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/login/Index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/views/register/Index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/schemas.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useAuthGuard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useSearch.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/supabase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.lazy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/login.lazy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/logout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/register.lazy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/formValidators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    <list default="true" id="bb1432d1-4706-49bb-8c32-b2159a061812" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jakubwojcik"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jakubwojcik/protected-supabase-vite-starter.git",
+    "accountId": "c2e70223-38ba-49d2-805b-4657242e8bbe"
+  }
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -145,8 +104,25 @@
       <workItem from="1727001574725" duration="192000" />
       <workItem from="1727001776422" duration="18000" />
       <workItem from="1727001799554" duration="1297000" />
-      <workItem from="1727033766011" duration="2548000" />
+      <workItem from="1727033766011" duration="3431000" />
     </task>
+    <task id="LOCAL-00001" summary="build: initial structure of the template">
+      <option name="closed" value="true" />
+      <created>1727036354997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727036354997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="build: ide configuration">
+      <option name="closed" value="true" />
+      <created>1727036389847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727036389847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,13 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build: initial structure of the template" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: initial structure of the template" />
-  </component>
-  <component name="com.github.lppedd.cc.CommitBuilderDialog">
-    <type>build</type>
-    <subject>initial structure of the template</subject>
-    <footers>
-      <entry type="" value="" />
-    </footers>
+    <MESSAGE value="build: ide configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: ide configuration" />
   </component>
 </project>
