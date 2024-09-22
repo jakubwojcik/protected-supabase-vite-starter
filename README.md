@@ -14,7 +14,7 @@ Additionally, there are some usage examples of the SDK:
 - `ProtectedRoute.tsx` component for protecting views for unauthorized users (using the `AuthGuard`)
 
 I've also included one example of the SQL "migration" script in the `sql` directory. You can run it using the Supabase SQL editor.
-I like to keep my database scripts in the repository, so I can easily recreate it if needed. 
+I like to keep my database scripts in the repository, so I can easily recreate it if needed.
 Adding dates as the prefixes helps me keep track of the order of changes.
 
 If you're new to Supabase, I recommend checking out their [documentation](https://supabase.io/docs).
@@ -40,6 +40,7 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
 - **Lucide**: Beautiful & consistent icons
 
 ## What's left to do
+
 - [ ] Unit tests (probably Jest with React Testing Library)
 - [ ] Integration tests (using Playwright or Cypress)
 
