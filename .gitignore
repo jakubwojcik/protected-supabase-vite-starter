@@ -1,0 +1,41 @@
+# misc
+.DS_Store
+.DS_*
+*.log
+logs/
+*.pem
+.cache/
+
+# dependecies
+node_modules/
+**/node_modules
+
+# testing
+coverage
+
+# production
+public/build
+build
+dist
+
+# debug
+npm-debug.log*
+
+# env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
