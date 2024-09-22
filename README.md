@@ -6,13 +6,14 @@ This is my starter template for building web applications using Supabase with Vi
 I've included some basic authentication functionality, but you can easily expand it to suit your needs.
 
 Additionally, there are some usage examples of the SDK:
+
 - `BucketImage.tsx` component for displaying images from Supabase Storage
 - `login/Index.tsx` view with a working login form
 - `useSearch.tsx` hook for searching through Supabase tables
 - `AuthGuard.tsx` component for checking if the user is authenticated
 - `ProtectedRoute.tsx` component for protecting views for unauthorized users (using the `AuthGuard`)
 
-I've also included one example SQL "migration" script in the `sql` directory. You can run it using the Supabase SQL editor. 
+I've also included one example SQL "migration" script in the `sql` directory. You can run it using the Supabase SQL editor.
 I like to keep my database schema in the repository, so I can easily recreate it if needed. Adding dates as the prefixes helps me keep track of the order of changes.
 
 If you're new to Supabase, I recommend checking out their [documentation](https://supabase.io/docs).
@@ -40,28 +41,32 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
 ## Getting Started
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/jakubwojcik/protected-supabase-vite-starter.git
    cd protected-supabase-vite-starter
    ```
 
 2. Install dependencies:
+
    ```
    npm install
    ```
 
 3. Set up your Supabase project and update the environment variables in `.env.local`:
+
    ```
    VITE_SUPABASE_URL=your-supabase-project-url
    VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
    ```
 
 4. Start the development server:
+
    ```
    npm run dev
    ```
-   
-   You should see the main page of the app with Register and Login buttons. 
+
+   You should see the main page of the app with Register and Login buttons.
 
 5. Open your browser and visit `http://localhost:5173` to see your app running.
 
@@ -78,7 +83,7 @@ If you're new to Supabase, I recommend checking out their [documentation](https:
 
 ## Commit Messages
 
-This project uses Conventional Commits for clear and standardized commit messages utilizing husky and commitlint. 
+This project uses Conventional Commits for clear and standardized commit messages utilizing husky and commitlint.
 Please follow the [Conventional Commits specification](https://www.conventionalcommits.org/) when making commits.
 
 ## Usage with AI
