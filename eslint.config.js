@@ -8,6 +8,9 @@ import prettier from "eslint-plugin-prettier";
 import sortKeysFix from "eslint-plugin-sort-keys-fix";
 import noRelativeImportPaths from "eslint-plugin-no-relative-import-paths";
 import perfectionist from "eslint-plugin-perfectionist";
+import sortDestructureKeys from "eslint-plugin-sort-destructure-keys";
+import simpleImportSort from "eslint-plugin-simple-import-sort";
+import unusedImports from "eslint-plugin-unused-imports";
 
 export default tseslint.config({
   extends: [js.configs.recommended, ...tseslint.configs.recommended],
@@ -25,6 +28,9 @@ export default tseslint.config({
     "sort-keys-fix": sortKeysFix,
     "no-relative-import-paths": noRelativeImportPaths,
     perfectionist,
+    "sort-destructure-keys": sortDestructureKeys,
+    "simple-import-sort": simpleImportSort,
+    unusedImports,
   },
   rules: {
     "react/jsx-curly-brace-presence": "error",
@@ -60,5 +66,11 @@ export default tseslint.config({
         partitionByNewLine: false,
       },
     ],
+    "sort-destructure-keys/sort-destructure-keys": [
+      "error",
+      { caseSensitive: false },
+    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
   },
 });

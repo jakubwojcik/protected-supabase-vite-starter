@@ -1,3 +1,9 @@
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useNavigate } from "@tanstack/react-router";
+import { useForm } from "react-hook-form";
+import z from "zod";
+
+import { Tooltip } from "@/components/shared/Tooltip.tsx";
 import { Button } from "@/components/ui-library/button.tsx";
 import {
   Form,
@@ -10,11 +16,6 @@ import {
 } from "@/components/ui-library/form.tsx";
 import { Input } from "@/components/ui-library/input.tsx";
 import { registerFormSchema } from "@/constants/schemas.ts";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useNavigate } from "@tanstack/react-router";
-import { useForm } from "react-hook-form";
-import z from "zod";
-import { Tooltip } from "@/components/shared/Tooltip.tsx";
 
 export const Index = () => {
   const navigate = useNavigate();

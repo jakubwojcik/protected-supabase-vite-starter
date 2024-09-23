@@ -1,8 +1,9 @@
+import { TransformOptions } from "@supabase/storage-js/src/lib/types.ts";
 import { useEffect, useState } from "react";
+
+import { Skeleton } from "@/components/ui-library/skeleton.tsx";
 import { BUCKET } from "@/constants";
 import { supabase } from "@/lib/supabase.ts";
-import { Skeleton } from "@/components/ui-library/skeleton.tsx";
-import { TransformOptions } from "@supabase/storage-js/src/lib/types.ts";
 
 type ImageProps = {
   imagePath: string;

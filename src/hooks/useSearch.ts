@@ -1,8 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { DBTables, SearchResultSchema } from "@/types";
-import { supabase } from "@/lib/supabase";
 import { useAtom, useAtomValue } from "jotai";
+
 import { searchResultsAtom, searchTermAtom } from "@/atoms/searchAtom.ts";
+import { supabase } from "@/lib/supabase";
+import { DBTables, SearchResultSchema } from "@/types";
 
 export const SEARCH_QUERY_KEY = "search";
 

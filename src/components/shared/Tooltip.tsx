@@ -1,10 +1,11 @@
+import { ReactNode } from "react";
+
 import {
   Tooltip as UITooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui-library/tooltip.tsx";
-import { ReactNode } from "react";
 
 type TooltipProps = {
   content: string;

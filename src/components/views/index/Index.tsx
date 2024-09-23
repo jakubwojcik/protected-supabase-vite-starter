@@ -1,7 +1,7 @@
 import { useNavigate } from "@tanstack/react-router";
-import { Button } from "@/components/ui-library/button.tsx";
 
 import Logo from "@/assets/logo.svg?react";
+import { Button } from "@/components/ui-library/button.tsx";
 
 const Index = () => {
   const navigate = useNavigate();

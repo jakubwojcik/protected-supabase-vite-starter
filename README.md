@@ -1,6 +1,6 @@
 # 👨🏻‍💻 @jakubwojcik/protected-supabase-vite-starter
 
-This is my starter template for building web applications using Supabase with Vite. It provides a solid foundation with a modern tech stack and essential development tools of my choice.
+This is my starter template for building web applications using Vite + React with Supabase. It provides a solid foundation with a modern tech stack and essential development tools of my choice.
 
 ⚠️ This project assumes you have a basic understanding of a Supabase SDK and how to set up a Supabase project.
 I've included some basic authentication functionality, but you can easily expand it to suit your needs.

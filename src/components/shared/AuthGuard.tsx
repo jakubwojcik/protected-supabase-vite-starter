@@ -1,6 +1,7 @@
-import { useAuth } from "@/hooks/useAuthGuard.ts";
 import { useNavigate } from "@tanstack/react-router";
 import { ReactNode } from "react";
+
+import { useAuth } from "@/hooks/useAuthGuard.ts";
 
 type AuthGuardProps = {
   children: ReactNode;

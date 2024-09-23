@@ -1,5 +1,6 @@
-import { AuthGuard } from "@/components/shared/AuthGuard.tsx";
 import { ReactNode } from "react";
+
+import { AuthGuard } from "@/components/shared/AuthGuard.tsx";
 
 type ViewProps = {
   children: ReactNode;

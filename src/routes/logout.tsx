@@ -1,4 +1,5 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
+
 import { supabase } from "@/lib/supabase.ts";
 
 export const Route = createFileRoute("/logout")({

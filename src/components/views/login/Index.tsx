@@ -1,3 +1,8 @@
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useNavigate } from "@tanstack/react-router";
+import { useForm } from "react-hook-form";
+import z from "zod";
+
 import { Button } from "@/components/ui-library/button.tsx";
 import {
   Form,
@@ -11,10 +16,6 @@ import {
 import { Input } from "@/components/ui-library/input.tsx";
 import { loginFormSchema } from "@/constants/schemas.ts";
 import { supabase } from "@/lib/supabase.ts";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useNavigate } from "@tanstack/react-router";
-import { useForm } from "react-hook-form";
-import z from "zod";
 
 export const Index = () => {
   const navigate = useNavigate();
