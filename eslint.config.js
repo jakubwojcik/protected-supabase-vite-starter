@@ -33,15 +33,18 @@ export default tseslint.config(
       perfectionist,
       "sort-destructure-keys": sortDestructureKeys,
       "simple-import-sort": simpleImportSort,
-      unusedImports,
+      "unused-imports": unusedImports,
     },
     rules: {
       "react/jsx-curly-brace-presence": "error",
       "react/jsx-sort-props": [
         "error",
         {
+          callbacksLast: true,
           ignoreCase: true,
+          multiline: "last",
           reservedFirst: true,
+          shorthandFirst: true,
         },
       ],
       ...reactHooks.configs.recommended.rules,
@@ -50,6 +53,13 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
       ...prettier.configs.recommended.rules,
+      "prettier/prettier": [
+        "error",
+        {
+          trailingComma: "all",
+          endOfLine: "auto",
+        },
+      ],
       "no-relative-import-paths/no-relative-import-paths": [
         "warn",
         { allowSameFolder: true, rootDir: "src", prefix: "@" },
@@ -57,7 +67,11 @@ export default tseslint.config(
       "sort-keys": [
         "error",
         "asc",
-        { caseSensitive: true, natural: false, minKeys: 2 },
+        {
+          caseSensitive: false,
+          natural: true,
+          minKeys: 2,
+        },
       ],
       "perfectionist/sort-objects": [
         "error",
@@ -65,8 +79,9 @@ export default tseslint.config(
           type: "alphabetical",
           order: "asc",
           ignoreCase: true,
-          partitionByComment: false,
-          partitionByNewLine: false,
+          partitionByComment: true,
+          partitionByNewLine: true,
+          groups: ["unknown"],
         },
       ],
       "sort-destructure-keys/sort-destructure-keys": [
@@ -75,6 +90,16 @@ export default tseslint.config(
       ],
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
+      "unused-imports/no-unused-imports": "error",
+      "unused-imports/no-unused-vars": [
+        "warn",
+        {
+          vars: "all",
+          varsIgnorePattern: "^_",
+          args: "after-used",
+          argsIgnorePattern: "^_",
+        },
+      ],
     },
   },
 );

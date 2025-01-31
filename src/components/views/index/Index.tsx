@@ -21,16 +21,16 @@ const Index = () => {
         file and helps me navigate during development. It's safe to change it.
       </p>
       <div className="flex gap-2">
-        <Button onClick={() => navigate({ to: "/login" })} variant="default">
+        <Button variant="default" onClick={() => navigate({ to: "/login" })}>
           Login
         </Button>
         <Button
+          variant="outline"
           onClick={() =>
             navigate({
               to: "/register",
             })
           }
-          variant="outline"
         >
           Register
         </Button>

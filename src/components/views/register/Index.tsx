@@ -106,7 +106,7 @@ export const Index = () => {
         </Tooltip>
         <p className="text-center text-sm text-muted-foreground">
           Already have an account?
-          <Button onClick={() => navigate({ to: "/login" })} variant="link">
+          <Button variant="link" onClick={() => navigate({ to: "/login" })}>
             Log in
           </Button>
         </p>

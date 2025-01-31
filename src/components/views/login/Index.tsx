@@ -87,7 +87,7 @@ export const Index = () => {
         </Button>
         <p className="text-center text-sm text-muted-foreground">
           Want to create a new account?
-          <Button onClick={() => navigate({ to: "/register" })} variant="link">
+          <Button variant="link" onClick={() => navigate({ to: "/register" })}>
             Sign up
           </Button>
         </p>
